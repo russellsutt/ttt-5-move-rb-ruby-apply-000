@@ -9,4 +9,4 @@ puts "Where would you like to go?"
 input = gets.strip
 converted_input = input_to_index(input)
 move(board, converted_input)
-update_array_at_with(board, converted_input, "X")
+update_array_at_with(board, 0, "X")
