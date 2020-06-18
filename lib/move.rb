@@ -16,6 +16,6 @@ end
 
 board = [" ", " ", " "]
 
-def update_array_at_with(array, index, value)
-  board[index] = player
+def update_array_at_with(board, index, value)
+  board[index] = value
 end
